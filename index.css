@@ -1,0 +1,405 @@
+@import "~bootstrap/dist/css/bootstrap.min.css";
+@font-face {
+  font-family: "IranSansMedium";
+  src: url("./font/IRANSansMobile_Medium.ttf");
+}
+
+.bg-main-blue {
+  background-color: #c5e1e4 !important;
+}
+.bg-light-blue {
+  background-color: #7ac9d3 !important;
+}
+.bg-light-skyblue {
+  background-color: #0091a1 !important;
+}
+.bg-navy-blue {
+  background-color: #011464 !important;
+}
+.bg-orange {
+  background-color: #dd9e46 !important;
+}
+.bg-dark-orange {
+  background-color: #b77518 !important;
+}
+.bg-dark-green {
+  background-color: #004249 !important;
+}
+.bg-navy-green {
+  background-color: #003339 !important;
+}
+
+
+/* .col4{
+  height: 515px;
+}
+.col5{
+  height: 570px;
+}
+
+
+.col16{
+  background-color: #8fbc8f;
+  height: 450px;
+  margin: 10px;
+
+}
+.col17{
+  background-color: lightpink;
+  height: 450px;
+  margin: 10px;
+}
+.col18{
+  background-color: mediumpurple;
+  height: 450px;
+  margin: 10px;
+} */
+
+
+body {
+  box-sizing: border-box !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  text-align: center !important;
+  color: lightgray !important;
+  scroll-behavior: smooth;
+  font-family: "IranSansMedium", sans-serif;
+}
+
+img {
+  cursor: pointer;
+}
+
+.header {
+  position: relative;
+  height: 143px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.header-front{
+  background-color: #16DBF1;
+  margin: 12px 0 0 0;
+  width: calc(100% - 130px);
+  height:90px;
+  border-radius: 0px 90px 90px 0px;
+  position: absolute;
+  z-index: 2;
+}
+
+.header-back{
+  background-color: #0d2698;
+  margin: 0px 55px 20px 90px;
+  width: calc(100% - 130px);
+  height:80px;
+  border-radius: 0px 90px 90px 0px;
+  position: absolute;
+  z-index: 1;
+}
+
+.header-img{
+  position: relative;
+  float: left;
+  z-index: 3;
+}
+
+
+.article-wrapper-one{
+  height: 1940px;
+  margin-top: -20px;
+  padding: 20px;
+  border-radius: 25px 25px 0px 0px;
+  background-color: #7AC9D3;
+}
+
+
+.blocks {
+
+  margin-top: -50px;
+  
+}
+
+.block1 {
+  background-color: red;
+  height: 450px;
+  border-radius: 10px;
+}
+.block2 {
+  background-color: pink;
+  height: 450px;
+  border-radius: 10px;
+  
+}
+
+.block3 {
+  background-color: blue;
+  height: 263px;
+  border-radius: 10px;
+  
+
+
+}
+
+.block4 {
+  background-color: green;
+  height: 496px;
+  border-radius: 10px;
+
+
+}
+
+
+.block5 {
+  background-color: yellow;
+  height: 295px;
+  border-radius: 10px;
+
+
+}
+
+
+.block6 {
+  background-color: brown;
+  height: 355px;
+  border-radius: 10px;
+
+
+}
+
+.block7 {
+  background-color: white;
+  height: 315px;
+  border-radius: 10px;
+
+}
+
+.block8 {
+  background-color: gray;
+  height: 500px;
+  border-radius: 10px;
+
+
+}
+
+.block9 {
+  background-color: rgb(191, 92, 183);
+  height: 523px;
+  border-radius: 10px;
+
+
+}
+.articles-wrapper-two{
+  background-color: rgb(6, 105, 118);
+  height: 603px;
+  width: 100%;
+  box-shadow: 1px 0 4px 1px gray;
+
+}
+
+.articles-wrapper-two-right{
+  padding-top: 95px;
+
+}
+
+.article-wrapper-two-right{
+  height: 105px;
+  width: 160px;
+  border-radius: 15px;
+  margin-bottom: 18px;
+  margin-right: 25px;
+}
+
+.article-wrapper-two-left{
+  height: 452px;
+  width: 680px;
+  margin-top: 6rem;
+  border-radius: 10px;
+}
+
+
+.article-wrapper-three{
+  height: 1212px;
+  background-color: darkgoldenrod;
+}
+
+.g-tasviri {
+  height: 685px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-color: blueviolet;
+}
+
+.nav-end {
+  height: 115px;
+}
+
+.footer {
+  max-width: 100%;
+  min-width: 589px;
+  height: 475px;
+  border-top: 5px solid #b77518;
+}
+
+.copy-right {
+  max-width: 100%;
+  min-width: 589px;
+  height: 40px;
+}
+
+
+.header-ayeha {
+  height: 79px;
+  padding: 0 28px;
+  background-color: #003339;
+}
+
+.article-wrapper-three {
+  background: url(./sample/home/bg_note.png);
+  position: relative;
+  z-index: 9;
+
+  height: 740px;
+}
+.news-navigation {
+  width: 1053px;
+  margin-right: 71px;
+  position: absolute;
+  top: 56px;
+  height: 628px;
+  border-radius: 40px 40px 20px 20px;
+  background-image: linear-gradient(
+    to right,
+    #38529d,
+    #2f4896,
+    #253f90,
+    #1b3589,
+    #0f2c82
+  )
+}
+
+.navigation-content {
+  position: absolute;
+  top: 80px;
+  right: 50%;
+  transform: translateX(50%);
+  margin-right: 15px;
+  height: 540px;
+  width: 101%;
+  border-radius: 20px 20px 10px 10px;
+  background-color: white;
+}
+
+.article-wrapper-four{
+  background-color: rgb(221,158,70);
+  height: 475px;
+  position: relative;
+
+}
+
+.article-wrapper-five {
+  height: 680px;
+  border-radius: 0 0 32px 32px;
+  box-shadow: 1px 4px 4px 1px gray;
+}
+
+
+
+
+.news-states{
+  background-color: rgb(255,255,255);
+  height: 573px;
+  width: 1163px;
+  position: absolute;
+  border-radius: 20px;
+  left: 40px;
+
+
+}
+.article-five-right{
+  float: right;
+  margin-top: 193px;
+  padding-right: 40px;
+}
+
+.article-five-left{
+  float: left;
+ margin-top: 194px;
+ padding-left: 25px;
+}
+
+.articles-five-right {
+  display: flex;
+  flex-direction: column;
+}
+
+.articles-five-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.pic1 {
+  background-color: #0091a1;
+  margin-bottom: 16px;
+  width: 210px;
+  height: 139px;
+  border-radius: 12px;
+  margin-right: -12px;
+}
+
+.pic2{
+  background-color: #0091a1;
+  margin-bottom: 16px;
+  width: 210px;
+  height: 139px;
+  border-radius: 12px;
+  margin-right: -12px;
+}
+
+.pic3{
+  background-color: #0091a1;
+  margin-bottom: 16px;
+  width: 210px;
+  height: 139px;
+  border-radius: 12px;
+  margin-right: -12px;
+}
+
+.pic4{
+  background-color: #0091a1;
+  width: 677px;
+  height: 448px;
+  border-radius: 12px;
+  position: relative;
+  top: 194px;
+  margin-right: 63px;
+}
+
+.pic5 {
+  background-color: #0091a1;
+  margin-bottom: 16px;
+  width: 210px;
+  height: 139px;
+  border-radius: 12px;
+  margin-left: 4px;
+  margin-right: -31px;
+}
+
+.pic6 {
+  background-color: #0091a1;
+  margin-bottom: 16px;
+  width: 210px;
+  height: 139px;
+  border-radius: 12px;
+  margin-left: 4px;
+  margin-right: -31px;
+}
+
+.pic7{
+  background-color: #0091a1;
+  margin-bottom: 16px;
+  width: 210px;
+  height: 139px;
+  border-radius: 12px;
+  margin-left: 4px;
+  margin-right: -31px;
+}
