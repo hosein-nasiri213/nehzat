@@ -1,0 +1,178 @@
+
+@media  (MAX-width: 576px) {
+    .block1{
+        height: 300PX;
+        
+    }
+
+    .container2{
+        margin: -20px 4px 0 6px;
+    }
+
+    .header-front {
+        width: calc(100% - 116px);
+        margin: 12px -9px 0 0;
+    }
+
+    .container-head {
+        transform: scaleX(81%);
+    }
+
+    .block2 {
+        height: 480px;
+        padding-bottom: 20px;
+    }
+
+    .nashre-khoobi{
+        top: -50px;
+
+
+    }
+        
+    .nashre-khoobi-svg{
+
+    }
+    .block3 {
+        height: 490px;
+        margin-bottom: 18px;
+    }
+
+    .block4 {
+        height: 1170px;
+        margin-bottom: 20px;
+    
+    }
+
+    .block6 {
+        height: 484px;
+    }
+
+    .block5 {
+        height: 293px;
+    }
+
+    .block7 {
+        height: 315px;
+    }
+
+    .block8 {    
+    height: 512px;
+    margin-bottom: 20px;
+    }
+
+    .margin-1{
+        
+        padding-top: 1px;
+    }
+
+
+    .news3-image{
+        width: 195px;
+        margin-right: 0px;
+        margin-top: 16px;
+        height: 130px;
+
+    }
+
+    .news3-image img {
+
+
+    }
+
+
+
+
+}
+
+
+
+
+
+
+@media (max-width: 768px) {
+
+    .block1{
+        height: 300PX;
+        margin-bottom: 20px;
+        
+    }
+
+    .container2{
+        margin: -20px 4px 0 6px;
+    }
+    .container-head {
+        transform: scaleX(81%);
+    }
+    .nashre-khoobi{
+        background-color: #fff;
+        width: 175px;
+        height: 50px;
+        border-radius: 0 10px 0 0 ;
+        display: flex;
+        position: relative;
+    }
+        
+    .nashre-khoobi-svg{
+
+    }
+
+
+
+
+}
+
+@media (min-width : 768px) {
+
+    .banner-quick-access {
+    margin: 37px 0 0 10px;
+    color: #bef7fe;
+    font-weight: bold;
+    }
+    
+}
+
+
+
+
+@media (min-width: 992px) {
+    
+    .banner-page-first {
+        color: #fff;
+        text-decoration: none;
+    }
+
+        
+
+}
+
+
+@media (max-width: 1200px) {
+
+
+
+
+}
+
+
+
+
+
+
+
+@media (min-width: 1400px){
+    .banner-menu {
+        position: absolute;
+        left: -65px;
+    }
+
+    
+
+    .banner-menu svg {
+        margin: 34px -2px 0 0;
+        width: 14px;
+        height: 28px;
+        cursor: pointer;
+    }
+}
+
+
