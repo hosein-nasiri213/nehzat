@@ -1,5 +1,14 @@
 
 @media  (MAX-width: 576px) {
+
+    .main-container {
+        transform: scalex(96.5%);
+    }
+    
+    .articles-wrapper-one{
+        height: 4770px;
+    }
+    
     .block1{
         height: 300PX;
         
@@ -23,6 +32,14 @@
         padding-bottom: 20px;
     }
 
+    .logo-nashr{
+        
+            z-index: 10;
+            margin-top: 7px;
+            margin-right: 5px;
+        
+    }
+
     .nashre-khoobi{
         top: -50px;
 
@@ -41,6 +58,46 @@
         height: 1170px;
         margin-bottom: 20px;
     
+    }.news4-contact img {
+        float: right;
+        width: 196px;
+        height: 127px;
+        border-radius: 12px;
+        margin-right: 23px;
+        margin-top: 48px;
+    }
+
+    .news4-contact {
+        margin-bottom: -80px;
+    }
+
+    .news4-contact p {
+        font-size: 15px;
+        line-height: 24px;
+        padding-left: 39px;
+        color: #505050;
+        position: relative;
+        top: -120px;
+        word-spacing: 0px;
+        text-align: start;
+        right: 231px;
+    }
+
+
+    .news4-main img {
+        width: 419px;
+        height: 274px;
+        position: relative;
+        top: 30px;
+        right: -2px;
+    }
+
+    .news4-main h6 {
+        margin-top: 42px;
+        font-size: 13px;
+        text-align: start;
+        word-spacing: 2px;
+        margin-right: 23px;
     }
 
     .block6 {
@@ -51,8 +108,41 @@
         height: 293px;
     }
 
+    .news5-contact p {
+        display: none;
+    }
+
+    .news5-main img {
+        width: 157px;
+        height: 203px;
+        float: right;
+        border-radius: 12px;
+        position: relative;
+        top: -10px;
+    }
+
+    .news5-contact h6 {
+        text-align: start;
+        font-size: 13px;
+        color: #000;
+        margin-top: 10px;
+        margin-right: 23px;
+        word-spacing: 5px;
+    }
+
     .block7 {
         height: 315px;
+    }
+    .news7-main p::before {
+        margin: 10px -5px 0px 5px;
+        position: relative;
+        width: 9px;
+        height: 9px;
+        content: "";
+        border-radius: 20px;
+        background-color: #BA7515;
+        float: right;
+        top: -1px;
     }
 
     .block8 {    
@@ -60,9 +150,74 @@
     margin-bottom: 20px;
     }
 
-    .margin-1{
+    .news8-content p::before {
+        margin: 10px -5px 0px 5px;
+        position: relative;
+        width: 9px;
+        height: 9px;
+        content: "";
+        border-radius: 20px;
+        background-color: #BA7515;
+        float: right;
+        top: -1px;
+    }
+    .news8-content h6 {
+        font-size: 13px;
+        color: #000;
+        text-align: start;
+        margin-top: 20px;
+        word-spacing: 2px;
+    }
+
+    .news9-article p::before {
+        margin: 10px -5px 0px 5px;
+        position: relative;
+        width: 9px;
+        height: 9px;
+        content: "";
+        border-radius: 20px;
+        background-color: #BA7515;
+        float: right;
+        top: -1px;
+    }
+
+    .video {
+        width: 100%;
+        display: flex;
+        position: relative;
+        top: 95px;
+        left: -20px;
+        margin-bottom: 19px;
+    }
+
+    .articles-wrapper-two {
+        height: 1330px;
+    }
+
+
+    .video-head p{
+
+    }
+
+    .v-chap{
         
-        padding-top: 1px;
+            display: block;
+            border-radius: 10px;
+            width: 620px;
+            margin-top: 1px;
+            margin-right: 1px;
+            height: 301px;
+
+    }
+
+    .v-rast {
+        height: 145px;
+        width: 220px;
+        border-radius: 10px;
+        padding-right: -17px;
+        padding-left: -15px;
+        margin-right: -18px;
+        margin-bottom: 8px;
     }
 
 
@@ -81,15 +236,79 @@
 
 
 
+    .header-ayeha {
+        height: 142px;
+    
+    }
+      
+    .ayeha-logo{
+        display: none;
+    }
+    .ayeha-logo-mobile{
+
+        display: block;
+    }
+
+
+    .svg-map{
+    display: none;    
+    }
+
+    .sevices-news{
+        position: relative;
+        top: 55px;
+    }
+
+    .header-four{
+        position: fixed;
+        margin: 15px 2px;
+    }
+    .ostan-c {
+        position: relative;
+        float: right;
+        width: 191px;
+        margin: 0px 6px;
+    }
+    .service-ostanha-in {
+        display: block;
+        float: right;
+        margin-right: 13px;
+        background-color: #00b6cb;
+        font: 14px/28px iranSansMedium;
+        color: #fff;
+        border-radius: 15px;
+        padding: 0px 33px;
+    }
+
+    .services-news-left{
+        position: relative;
+        left: 20px;
+        height: 670px;
+    }
+
+    
+
 
 }
 
 
 
 
+@media (min-width : 576px) {
+    .main-container {
+        transform: scalex(103%);
+    }
+    
+}
+
 
 
 @media (max-width: 768px) {
+
+    
+
+    
+    
 
     .block1{
         height: 300PX;
@@ -97,9 +316,11 @@
         
     }
 
-    .container2{
-        margin: -20px 4px 0 6px;
+    .block3 {
+        height: 490px;
+        margin-bottom: 18px;
     }
+
     .container-head {
         transform: scaleX(81%);
     }
@@ -116,6 +337,173 @@
 
     }
 
+    .ayeha-logo{
+        display: none;
+    }
+    .ayeha-logo-mobile{
+
+        display: block;
+        display: block;
+        height: 143px;
+        margin-top: 70px;
+        margin-right: 3px;
+    }
+
+    .header-ayeha {
+        height: 264px;
+    }
+
+    .ayeha-tabs {
+        margin-block-start: 20px;
+        padding-inline-start: 25px;
+        float: right;
+        width: calc(100% - 197px);
+        display: flex;
+        /* justify-content: flex-start; */
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin-top: 36px;
+        height: 195px;
+        padding-top: 5px;
+    }
+
+    .ayeha-tabs-tab {
+        display: inline-block;
+        list-style-type: none;
+        border: 2px solid #33c5d5;
+        color: #75cfd9;
+        font: 16px/35px iranSansweb;
+        border-radius: 20px;
+        min-width: 132px;
+        cursor: pointer;
+        margin-left: 20px;
+        height: 50px;
+        padding-bottom: -12px;
+        padding-top: 7px;
+    }
+
+    .navigation-content-right img {
+        height: 288px;
+        width: 441px;
+        border-radius: 20px;
+        margin: -8px -11px 0px 0px;
+    }
+
+    .main-navigation-content-left{
+        padding-right: 4px;
+        margin-top: 12px;
+        padding-left: 17px;
+    }
+
+    .navigation-content-left {
+        width: 213px;
+    }
+
+    .navigation-content-left img {
+        width: 200px;
+        border-radius: 20px;
+    }
+
+    .news-navigation {
+        width: 683px;
+        position: relative;
+        margin: 0px -22px 0px 2px;
+        height: 1058px;
+        border-radius: 40px 0px 0px 20px;
+        background-image: linear-gradient( to right, #38529d, #2f4896, #253f90, #1b3589, #0f2c82 );
+        top: -174px;
+        z-index: 1;
+    }
+
+    .navigation-content {
+        top: 80px;
+        margin-right: 21px;
+        height: 850px;
+        width: 482px;
+        border-radius: 0px 20px 10px 0px;
+        background-color: white;
+        padding: 30px;
+        top: 265px;
+        position: absolute;
+    }
+
+    .article-wrapper-four {
+        background-color: rgb(221,158,70);
+        height: 955px;
+        position: relative;
+        max-width: 1240px;
+        padding: 20px;
+        margin: 20px;
+        top: 144px;
+    }
+
+    .news-states {
+        background-color: rgb(255,255,255);
+    height: 795px;
+    width: 461px;
+    position: relative;
+    border-radius: 20px;
+    top: 77px;
+    display: flex;
+    z-index: 20;
+    margin: -20px 14px;
+    }
+
+    .article-wrapper-five {
+        height: 490px;
+    }
+
+    
+
+    .main-article-wrapper-five img {
+        width: 106%;
+        height: 238px;
+        border-radius: 12px;
+        position: relative;
+        top: -45px;
+        /* right: 20px; */
+        left: 32px;
+    }
+
+    .articles-five-left{
+        display: none;
+    }
+    .articles-five-right{
+        display: none;
+    }
+
+    .footer {
+        height: 196px;
+        border-top: 5px solid #b77518;
+    }
+
+    .copy-right {
+        height: 30px;
+    }
+    
+    .mobile-footer{
+
+    }
+    .mobile-footer p{
+        text-align: start;
+        margin-top: 17px;
+        font: 13px tahoma,arial;
+        margin: 23px 44px;
+        color: #38a2ad;
+        
+    }
+    
+    
+
+    .main-footer{
+        display: none;
+    }
+
+    .menu-nav{
+        display: none;
+    }
+    
+
 
 
 
@@ -123,10 +511,21 @@
 
 @media (min-width : 768px) {
 
+    .main-container {
+        min-width: 567px;
+        transform: scaleX(100%);
+        margin-right: 12px;
+    }
+
+
     .banner-quick-access {
-    margin: 37px 0 0 10px;
+
+
+    margin: 38px -50px 0px 10px;
     color: #bef7fe;
+    font-size: 11px;
     font-weight: bold;
+
     }
     
 }
@@ -162,14 +561,14 @@
 @media (min-width: 1400px){
     .banner-menu {
         position: absolute;
-        left: -65px;
+        left: -40px;
     }
 
     
 
     .banner-menu svg {
-        margin: 34px -2px 0 0;
-        width: 14px;
+        margin: 34px 4px 0 0;
+        width: 17px;
         height: 28px;
         cursor: pointer;
     }

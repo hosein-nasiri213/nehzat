@@ -53,6 +53,14 @@ img {
   cursor: pointer;
 }
 
+
+.main-container{
+  min-width:576px ;
+}
+
+.article{
+
+}
 .nashr-first {
   position: absolute;
   top: -50px;
@@ -76,13 +84,14 @@ img {
   height: 143px;
   margin-top: 20px;
   margin-bottom: 30px;
-  transform: scaleX(90%);
+  transform: scaleX(92%);
+  left: 7px;
 }
 
 .header-front{
   background-color: #16DBF1;
   margin: 12px -5px 0 0;
-  width: calc(100% - 120px);
+  width: calc(100% - 144px);
   height:90px;
   border-radius: 0px 90px 90px 0px;
   position: absolute;
@@ -104,12 +113,38 @@ img {
   z-index: 3;
   left: -5px;
 }
-.banner-logo{
-  
-  margin: 15px 10px 0 0;
-  width: 96%;
-  height: 70%;
 
+.svg-member-icon{
+  fill: #bf7b1d;
+  fill-rule: evenodd;
+}
+
+.member-icon{
+  left: 44px;
+  position: absolute;
+  z-index: 500;
+  top: 10px;
+}
+
+.search-icon{
+  left: 42px;
+  position: absolute;
+  z-index: 500;
+  top:72px;
+}
+
+.svg-search-icon{
+  fill: #bef7fe;
+  fill-rule: evenodd;
+}
+.banner-logo{
+  margin: 13px 5px 0 0px;
+  transform: scaleX(109%);
+}
+
+.banner-content{
+  position: relative;
+  right: 5px;
 }
 
 .banner-navbar{
@@ -119,6 +154,7 @@ img {
   position: relative;
   top: 26px;
   right: 18px;
+  width: 763px;
 }
 
 
@@ -126,16 +162,17 @@ img {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  margin: 9px -36px 0px -17px;
+  font-size: 15px;
+  font-family: iransansweb;
 }
+
 
 .banner-navbar li{
   list-style: none;
 }
 
-.container2{
-  margin-top: -20px;
-  margin-right: 20px;
-}
+
 
 .articles-wrapper-one{
   padding-left: 20px;
@@ -144,13 +181,16 @@ img {
   border-radius: 25px 25px 0px 0px;
   background-color: #7AC9D3;
   max-width: 1240px;
-
+  height: 1938px;
+  margin-top: -20px;
 }
 
 .row-top{
   position: relative;
   top: -30px;
   padding: 20px;
+  margin-bottom: -10px;
+  margin-top: -20px;
 } 
 
 .row-down{
@@ -160,8 +200,8 @@ img {
 .block1 {
   height: 450px;
   border-radius: 10px;
-  width: 100%;
-  margin-bottom: 5px;
+  background-color: #000;
+  
 }
 .block2 {
   height: 400px;
@@ -196,11 +236,100 @@ img {
   position: relative;
   right: 20px;
 }
+.news-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #fff;
+  font-size: 3rem;
+  border-radius: 10px;
+}
+
+.nashr-ax{
+  height: 250px;
+  padding: 20px;
+  margin-top: -50px;
+}
+
+.nashr-ax img{
+
+  border-radius: 10px;
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+.nashr-text{
+  text-align: start;
+  font-family: iransansweb;
+  font-size: 13px;
+  padding-top: 7px;
+}
+
+.nashr-titr::before {
+  margin: 13px -1px 0px 5px;
+  position: relative;
+  width: 7px;
+  height: 7px;
+  content: "";
+  border-radius: 20px;
+  background-color: #BA7515;
+  float: right;
+  top: -1px;
+}
+
+.nashr-titr{
+  font-family: IranSansWeb;
+  color: #0a2598;
+  font-size: 16px;
+  float: right;
+  
+}
+
+.nashr-footer{
+  width: 100%;
+  margin-top: 63px;
+  height: 90px;
+
+}
+
+.lastNashrinside{
+  margin: 13px 31px 0px 40px;
+  float: right;
+}
+
+.NumNashr {
+  font: 16px/28px iranSansMediumNumber;
+  color: #00b6cb;
+  display: block;
+  text-align: center;
+}
+
+.spanNashr {
+  font: 13px/32px iranSansLight;
+}
+
+.NashrVorud {
+  float: left;
+  position: relative;
+  top: 33px;
+}
+
+.NashrVorud {
+  float: left;
+  position: relative;
+  top: 33px;
+}
+
 
 .block3 {
-  background-color: #fff;
+
   height: 263px;
+  background-color: #fff;
   border-radius: 10px;
+  margin-bottom: 20px;
+
 
 }
 
@@ -284,27 +413,29 @@ img {
 
 .news3-wrap{
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   flex-wrap: wrap;
-  position: absolute;
+  position: relative;
 }
 
+
+
 .news3-main p {
-  font-size: 11px;
+  font-size: 14px;
   margin-top: 12px;
   text-align: start;
   height: auto;
-  margin-right: 13px;
-  width: 166px;
+  width: 169px;
   color: #666565;
-  padding-left: 2px;
+  padding-right: 22px;
 }
+
 .news3-image {
-  width: 156px;
+  width: 140px;
   height: 93px;
   border-radius: 12px;
   background: green;
-  margin-right: 11px;
+  margin-top: 14px;
 }
 .news3-image img {
   width: 100%;
@@ -314,8 +445,10 @@ img {
 
 .block4 {
   background-color: #fff;
-  height: 496px;
+  height: 494px;
   border-radius: 10px;
+  margin-bottom: 20px;
+
 
 }
 
@@ -359,23 +492,26 @@ img {
   flex-direction: column;
 }
 .news4-contact {
-  margin-bottom: 28px;
+  margin-bottom: 10px;
 }
 .news4-contact img {
   float: right;
-  width: 142px;
-  height: 88px;
+  width: 130px;
+  height: 86px;
   border-radius: 12px;
   margin-left: 12px;
+  margin-right: -3px;
+  margin-top: 10px;
 }
 .news4-contact p {
   font-size: 15px;
-  line-height: 20px;
-  padding-left: 21px;
+  line-height: 24px;
+  padding-left: 34px;
   color: #505050;
   position: relative;
   top: 9px;
-  word-spacing: 2px;
+  word-spacing: 0px;
+  text-align: start;
 }
 
 
@@ -383,6 +519,8 @@ img {
   background-color: #fff;
   height: 295px;
   border-radius: 10px;
+  margin-bottom: 20px;
+
 }
 
 .news5-main{
@@ -438,6 +576,8 @@ img {
   border-radius: 10px;
   background-image: linear-gradient( to bottom, #00b4c9, #0694b1, #0e6c91, #154574, #1a2b5f );
   overflow: hidden;
+  margin-bottom: 20px;
+
 }
 .news6-header {
   text-align: start;
@@ -479,8 +619,10 @@ img {
 
 .block7 {
   background-color: white;
-  height: 315px;
+  height: 313px;
   border-radius: 10px;
+  margin-bottom: 20px;
+
 }
 
 .news7-main{
@@ -495,11 +637,25 @@ img {
   text-align: start;
   word-spacing: 2px;
 }
+.news7-main p::before {
+  margin: 10px -5px 0px 5px;
+  position: relative;
+  width: 9px;
+  height: 9px;
+  content: "";
+  border-radius: 20px;
+  background-color: #BA7515;
+  float: right;
+  top: -1px;
+}
+
 
 .block8 {
   background-color: #fff;
   height: 500px;
   border-radius: 10px;
+  margin-bottom: 20px;
+
 }
 
 .news8-main {
@@ -546,6 +702,7 @@ img {
   padding-top: 8px;
 }
 
+
 .block9 {
   background-color: #fff;
   height: 523px;
@@ -564,6 +721,18 @@ img {
   word-spacing: 2px;
 }
 
+.news9-article p::before {
+  margin: 10px -5px 0px 5px;
+  position: relative;
+  width: 9px;
+  height: 9px;
+  content: "";
+  border-radius: 20px;
+  background-color: #BA7515;
+  float: right;
+  top: -1px;
+}
+
 
 .articles-wrapper-two{
   background-color: #0091A1;
@@ -571,6 +740,7 @@ img {
   padding: 20px;
   margin: 20px;
   margin-top: -20px;
+  height: 601px;
 
 }
 .video-head{
@@ -660,6 +830,7 @@ img {
   background-image: linear-gradient( to right, #38529d, #2f4896, #253f90, #1b3589, #0f2c82 );
   left: -2px;
 }
+
 
 
 .header-ayeha{
@@ -765,7 +936,7 @@ img {
 
 .article-wrapper-four{
   background-color: rgb(221,158,70);
-  height: 475px;
+  height: 473px;
   position: relative;
   max-width: 1240px;
   padding: 20px;
@@ -774,7 +945,7 @@ img {
 }
 
 .article-wrapper-five {
-  height: 680px;
+  height: 685px;
   border-radius: 0 0 32px 32px;
   box-shadow: 1px 4px 4px 1px gray;
   max-width: 1240px;
@@ -809,6 +980,12 @@ img {
   position: absolute;
   top: 195px;
 }
+
+.articles-five-right {
+  display: flex;
+  flex-direction: column;
+}
+
 .article-five-right img {
   margin-bottom: 9px;
   width: 210px;
@@ -818,10 +995,7 @@ img {
   padding-top: 7px;
 }
 
-.articles-five-right {
-  display: flex;
-  flex-direction: column;
-}
+
 .article-five-left img {
   margin-bottom: 16px;
   width: 221px;
@@ -995,3 +1169,63 @@ img {
   stroke-width: 3px;
   stroke-linejoin: round;
 }
+
+
+.menu-nav{
+  position: relative;
+  left: 60px;
+  top: 17px;
+
+}
+.menu-ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 13px;
+    padding-left: 60px;
+}
+
+.menu-ul li{
+  list-style: none;
+  color: #004249;
+  font-size: 15px;
+}
+
+.logo-nav img{
+  position: relative;
+  top: 17px;
+  left: 16px;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+  border-radius: 10px;
+} 
+
+.swiper-pagination-bullet {
+  width: 13px;
+  height: 13px;
+  background-color: rgb(253, 207, 67);
+}
+
+.swiper-pagination-bullet-active {
+  width: 13px;
+  height: 13px;
+  background-color: rgb(255, 157, 0);
+}
+
+
+
+
+
+:root{--swiper-theme-color: rgb(255, 157, 0)}
